@@ -8,8 +8,8 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1--ijVdGb4SFsXZ7VGU1Wi1Ht0Jy1NWT4?alt=media&key=AIzaSyD9Qkr9oc9uw9JFdy1D7pl2PuVRHH7D0wA'
-export_file_name = 'trained_model-save1.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1-HOTcS-EFk2y5_26hrdh392cCT1rWPKw?alt=media&key=AIzaSyD9Qkr9oc9uw9JFdy1D7pl2PuVRHH7D0wA'
+export_file_name = 'trained_model-save2.pkl'
 
 classes = ['01_downdog', '02_chair', '03_boat', '04_triangle', '05_assorted_nontarget']
 path = Path(__file__).parent

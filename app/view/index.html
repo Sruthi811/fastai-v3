@@ -7,7 +7,7 @@
 <body>
 <div>
     <div class='center'>
-        <div class='title'>Yoga Pose Classifier(Beta)🧘</div>
+        <div class='title' style='color: #900C3F'>Yoga Pose Classifier(Beta)🧘</div>
         <p style='font-size:20px'>
             Detect if your pose is downward dog, boat, chair or triangle!!
         </p>
@@ -20,15 +20,15 @@
                        accept='image/*'
                        onchange='showPicked(this)'>
             </div>
-            <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+            <button class='choose-file-button' style='border: solid 1px #900C3F; font-size: 16px; color: #900C3F' type='button' onclick='showPicker()'>Select Image</button>
             <div class='upload-label'>
-                <label id='upload-label'>No file chosen</label>
+                <label id='upload-label' style='font-size:16px'>No file chosen</label>
             </div>
             <div>
-                <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+                <img id='image-picked'  style='font-size:16px' class='no-display' alt='Chosen Image' height='200'>
             </div>
             <div class='analyze'>
-                <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+                <button id='analyze-button' style='border: solid 1px #900C3F; background-color: #900C3F; font-size: 16px' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
             </div>
             <div class='result-label'>
                 <label id='result-label'></label>
